@@ -1,0 +1,29 @@
+{
+  "name": "@monorepo-starter/react",
+  "version": "0.0.0",
+  "description": "Blueprint Web Components - React ",
+  "author": "bart.alcorn <bart.alcorn@turner.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/react-library.test.js",
+    "build": "npm run tsc",
+    "tsc": "tsc -p . --outDir ./dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "core": "*"
+  }
+}

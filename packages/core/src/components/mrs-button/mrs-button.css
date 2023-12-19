@@ -1,0 +1,19 @@
+:host {
+  display: block;
+}
+
+.mrs-button {
+  align-items: center;
+  background-color: #eee;
+  border-radius: 6px;
+  border: 1px solid #ededed;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  justify-content: center;
+  padding: 8px;
+}
+
+.mrs-button:hover {
+  background-color: #ccc;
+}
